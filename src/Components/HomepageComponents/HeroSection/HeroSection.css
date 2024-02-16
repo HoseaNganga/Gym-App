@@ -1,0 +1,121 @@
+.heroSectionContainer {
+  background-color: var(--PRIMARYCOLOR);
+  color: var(--SECONDARYCOLOR);
+  height: 600px;
+  background-image: url(../../../ImageAssets/hero/hero-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  justify-content: center;
+  background-position: center;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.heroSectionInnerContainer {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.heroSectionHeader {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroSectionHeaderImage {
+  position: relative;
+}
+
+.heroSectionHeaderImage p {
+  position: absolute;
+  top: 0;
+  color: var(--PRIMARYCOLOR);
+  transform: translateX(1.5rem);
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
+
+.heroSectionHeader h3 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.heroSectionHeader a {
+  color: var(--PRIMARYCOLOR);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.heroLinkClass {
+  background-color: var(--SECONDARYCOLOR);
+  width: 180px;
+  height: 40px;
+  padding: 0.3rem;
+  display: grid;
+  align-items: center;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.heroLinkClass:hover {
+  background-color: var(--BUTTONBACKGROUNDCOLOR);
+}
+
+.heroLinkClass a:hover {
+  color: var(--SECONDARYCOLOR);
+}
+
+.heroLinkClass svg {
+  margin-inline: 0.5rem;
+  transform: translateY(0.2rem);
+}
+
+.heroSectionBody {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.styleColor {
+  display: inline-block;
+  width: 5px;
+  height: 50px;
+  background-color: var(--BUTTONBACKGROUNDCOLOR);
+}
+
+.netIcons {
+  display: grid;
+  gap: 1rem;
+}
+.netIcons svg:hover {
+  color: var(--BUTTONBACKGROUNDCOLOR);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 540px) {
+  .heroSectionInnerContainer {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .heroSectionBodyContainer {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .heroSectionBodyContainer span {
+    height: 3px;
+    width: 30px;
+    display: grid;
+    transform: translateY(0.5rem);
+  }
+
+  .netIcons {
+    display: flex;
+  }
+}
