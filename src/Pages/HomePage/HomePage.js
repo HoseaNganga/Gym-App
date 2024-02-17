@@ -8,6 +8,12 @@ import {
   Trainers,
   HomeTestimonial,
   GymLogos,
+  HomeGallery,
+  Bmi,
+  HomePricing,
+  HomeBlogs,
+  FitnessTrainer,
+  Footer,
 } from "../../Components/HomepageComponents/Import";
 
 const HomePage = () => {
@@ -21,6 +27,12 @@ const HomePage = () => {
       <Trainers />
       <HomeTestimonial />
       <GymLogos />
+      <HomeGallery />
+      <Bmi />
+      <HomePricing />
+      <HomeBlogs />
+      <FitnessTrainer />
+      <Footer />
     </>
   );
 };

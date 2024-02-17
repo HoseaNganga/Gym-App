@@ -8,3 +8,8 @@ export { default as WhyChooseUs } from "./WhyChooseUs/WhyChooseUs";
 export { default as Trainers } from "./Trainers/Trainers";
 export { default as HomeTestimonial } from "./HomeTestimonials/HomeTestimonial";
 export { default as GymLogos } from "./GymLogos/GymLogos";
+export { default as HomeGallery } from "./HomeGallery/HomeGallery";
+export { default as Bmi } from "./Bmi/Bmi";
+export { default as HomePricing } from "./HomePricing/HomePricing";
+export { default as HomeBlogs } from "./HomeBlogs/HomeBlogs";
+export { default as FitnessTrainer } from "./FitnessTrainer/FitnessTrainer";

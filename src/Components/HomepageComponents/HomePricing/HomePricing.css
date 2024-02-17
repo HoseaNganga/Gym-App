@@ -1,0 +1,116 @@
+.pricingContainer {
+  padding: 1rem;
+  margin-bottom: 5rem;
+  background-image: url(../../../ImageAssets/pricing/background.jpg);
+}
+
+.pricingContainerHeader {
+  display: grid;
+  place-items: center;
+  gap: 1.2rem;
+  margin-bottom: 3rem;
+}
+
+.pricingContainerHeaderImage {
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+
+.pricingContainerHeaderImage h2 {
+  position: absolute;
+  top: 0;
+  text-transform: uppercase;
+  font-size: 1rem;
+  transform: translateX(1.5rem);
+  color: var(--SECONDARYCOLOR);
+}
+
+.pricingContainerBody {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.pricingDiv {
+  max-width: 350px;
+  height: auto;
+  box-shadow: 0px 5px 5px var(--PRIMARYCOLOR);
+  position: relative;
+  -webkit-animation: blink 0.7s infinite alternate;
+  animation: blink 0.7s infinite alternate;
+}
+
+@-webkit-keyframes blink {
+  100% {
+    box-shadow: 0 0 3px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #ff4d30,
+      0 0 5px #ff4d30, 0 0 5px #ff4d30;
+  }
+}
+
+@keyframes blink {
+  100% {
+    box-shadow: 0 0 3px #fff, 0 0 10px #fff, 0 0 5px #fff, 0 0 5px #ff4d30,
+      0 0 5px #ff4d30, 0 0 5px #ff4d30;
+  }
+}
+
+.stylePrice {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.pricingDivImage {
+  width: 100%;
+}
+
+.pricingDivImage img {
+  width: 100%;
+  height: 250px;
+  filter: grayscale(100%);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.pricingDivImage img:hover {
+  filter: grayscale(0%);
+}
+
+.pricingDescription {
+  padding: 1rem;
+  display: grid;
+  place-items: center;
+  line-height: 3rem;
+}
+
+.contactLinkPricing {
+  background-color: var(--PRIMARYCOLOR);
+  padding: 0.3rem;
+  cursor: pointer;
+  border-radius: 5px;
+  display: grid;
+  place-items: center;
+  transition: 0.3s ease-in-out;
+}
+
+.contactLinkPricing:hover {
+  background-color: var(--BUTTONBACKGROUNDCOLOR);
+}
+
+.contactLinkPricing a {
+  text-decoration: none;
+  color: var(--SECONDARYCOLOR);
+  text-transform: uppercase;
+}
+
+.contactLinkPricing svg {
+  margin-inline: 0.5rem;
+  transform: translateY(0.2rem);
+}
+
+@media screen and (max-width: 1023px) {
+  .pricingContainerBody {
+    display: grid;
+    place-content: center;
+  }
+}

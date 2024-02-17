@@ -129,4 +129,8 @@
     display: grid;
     gap: 2rem;
   }
+  .aboutUsHomeHeader h3,
+  .aboutUsHomeHeader p {
+    text-align: center;
+  }
 }

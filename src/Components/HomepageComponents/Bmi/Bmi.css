@@ -1,0 +1,76 @@
+.bmiContainer {
+  padding: 1rem;
+  margin-bottom: 5rem;
+  background-color: var(--PRIMARYCOLOR);
+  color: var(--SECONDARYCOLOR);
+  min-height: 400px;
+  background-image: url(../../../ImageAssets/bmi/background.jpg);
+  background-size: cover;
+  background-position: right;
+  line-height: 3rem;
+}
+
+.bmiContainer h2 {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.styleSpanh2 {
+  color: var(--BUTTONBACKGROUNDCOLOR);
+}
+
+.flexBmiForm {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.flexBmiForm input {
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+  border-radius: 7px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.calculateBmiBtn {
+  border: none;
+  outline: none;
+  padding: 0.5rem 2rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  margin-bottom: 3rem;
+}
+
+.calculateBmiBtn:hover {
+  background-color: var(--BUTTONBACKGROUNDCOLOR);
+}
+
+.revealBmi {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.revealBmi span {
+  color: var(--BUTTONBACKGROUNDCOLOR);
+}
+
+@media screen and (max-width: 440px) {
+  .flexBmiForm,
+  .revealBmi,
+  .bmiContainer {
+    display: grid;
+    place-items: center;
+  }
+  .bmiContainer h2,
+  .bmiContainer p {
+    text-align: center;
+  }
+}

@@ -107,6 +107,11 @@
     gap: 1rem;
   }
 
+  .chooseUsBody h3,
+  .chooseUsBody p {
+    text-align: center;
+  }
+
   .chooseUsBody {
     display: grid;
     place-items: center;
