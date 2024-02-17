@@ -1,0 +1,62 @@
+.aboutPageHeader {
+  height: 180px;
+  background-color: var(--PRIMARYCOLOR);
+  color: var(--SECONDARYCOLOR);
+  background-image: url(../../ImageAssets/login/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+}
+
+.aboutPageGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px 0;
+  margin-bottom: 5rem;
+  background-image: url(../../ImageAssets/who-we-are/background.jpg);
+}
+.aboutPageGridItem {
+  padding: 20px;
+  height: 400px;
+}
+
+.gridItem1,
+.gridItem4 {
+  display: grid;
+  place-items: center;
+}
+
+.gridItem1 p,
+.gridItem4 p {
+  text-align: center;
+}
+
+.gridItem2 {
+  background-image: url(../../ImageAssets/AboutPage/3.jpg);
+}
+.gridItem3 {
+  background-image: url(../../ImageAssets/AboutPage/4.jpg);
+}
+
+.gridItem2,
+.gridItem3 {
+  filter: grayscale(100%);
+  background-size: cover;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.gridItem3:hover,
+.gridItem2:hover {
+  filter: grayscale(0%);
+}
+
+@media screen and (max-width: 620px) {
+  .aboutPageGrid {
+    grid-template-columns: none;
+    grid-template-rows: none;
+  }
+}
