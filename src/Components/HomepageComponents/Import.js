@@ -3,3 +3,8 @@ export { default as HeroSection } from "./HeroSection/HeroSection";
 export { default as ProgressSection } from "./ProgressSection/ProgressSection";
 export { default as WhoWeAre } from "./WhoWeAre/WhoWeAre";
 export { default as Footer } from "./Footer/Footer";
+export { default as Features } from "./Features/Features";
+export { default as WhyChooseUs } from "./WhyChooseUs/WhyChooseUs";
+export { default as Trainers } from "./Trainers/Trainers";
+export { default as HomeTestimonial } from "./HomeTestimonials/HomeTestimonial";
+export { default as GymLogos } from "./GymLogos/GymLogos";

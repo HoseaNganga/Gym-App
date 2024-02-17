@@ -3,6 +3,9 @@
   display: flex;
   padding: 1rem;
   justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 .navLinks {
@@ -66,6 +69,9 @@
 @media screen and (max-width: 1023px) {
   .nav {
     position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 10;
   }
 
   .hamburger {

@@ -1,0 +1,119 @@
+.chooseUsContainer {
+  margin-bottom: 5rem;
+  background-color: var(--PRIMARYCOLOR);
+  color: var(--SECONDARYCOLOR);
+  padding: 1rem;
+  display: flex;
+}
+
+.chooseUsHeader {
+  flex: 1;
+}
+
+.chooseUsHeaderImage {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  align-items: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chooseUsHeaderImage .chooseUsImg {
+  width: 100%;
+  height: 100%;
+}
+.placeIcon {
+  position: absolute;
+  background-color: white;
+  width: 60px;
+  height: 60px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.chooseUsBody {
+  flex: 1;
+}
+.chooseUsBodyImage {
+  position: relative;
+  display: grid;
+}
+
+.chooseUsBodyImage h2 {
+  position: absolute;
+  top: 0;
+  transform: translateX(1.5rem);
+  font-size: 1rem;
+  color: var(--SECONDARYCOLOR);
+}
+
+.chooseUsBody h3 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-bottom: 0.5rem;
+}
+
+.chooseUsBody p {
+  margin-bottom: 3rem;
+}
+
+.chooseUsIcons {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.flexChooseIcons {
+  display: flex;
+  justify-content: space-between;
+
+  gap: 1rem;
+}
+
+.chooseUsLinkClass {
+  background-color: var(--SECONDARYCOLOR);
+  width: 160px;
+  height: 40px;
+  padding: 0.3rem;
+  display: grid;
+  place-items: center;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.chooseUsLinkClass:hover {
+  background-color: var(--BUTTONBACKGROUNDCOLOR);
+}
+.chooseUsLinkClass a {
+  text-decoration: none;
+  color: var(--PRIMARYCOLOR);
+}
+
+.chooseUsLinkClass svg {
+  margin-inline: 0.5rem;
+  transform: translateY(0.2rem);
+}
+
+@media screen and (max-width: 1023px) {
+  .chooseUsContainer {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .chooseUsBody {
+    display: grid;
+    place-items: center;
+  }
+}
+@media screen and (max-width: 670px) {
+  .chooseUsIcons {
+    display: grid;
+  }
+}

@@ -1,0 +1,106 @@
+.featuresContainer {
+  margin-bottom: 5rem;
+  padding: 1rem;
+}
+
+.featuresHeader {
+  display: grid;
+  place-items: center;
+  margin-bottom: 2rem;
+}
+
+.featuresHeaderImage {
+  position: relative;
+}
+
+.featuresHeaderImage h2 {
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  position: absolute;
+  top: 0;
+  transform: translateX(1rem);
+  color: var(--SECONDARYCOLOR);
+}
+
+.featuresHeader h3 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-align: center;
+}
+.featuresBodyGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto auto;
+  gap: 10px;
+}
+
+.item {
+  /* background-color: #ddd; */
+  padding: 20px;
+  text-align: center;
+  min-height: 300px;
+  width: auto;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  transition: 0.3s ease-in-out;
+  position: relative;
+  cursor: pointer;
+}
+.itemDescription {
+  position: absolute;
+  bottom: 0;
+  color: white;
+}
+
+.itemDescription p {
+  background-color: var(--BUTTONBACKGROUNDCOLOR);
+  padding: 0.3rem;
+  margin-bottom: 4rem;
+}
+
+.item:hover,
+.item:focus {
+  background-size: 130%;
+  filter: grayscale(0%);
+}
+
+.item1 {
+  grid-column: span 2;
+  background-image: url(../../../ImageAssets/features/cycling.jpg);
+}
+
+.item2 {
+  background-image: url(../../../ImageAssets/features/karate.jpg);
+}
+
+.item3 {
+  background-image: url(../../../ImageAssets/features/meditation.jpg);
+}
+
+.item4 {
+  background-image: url(../../../ImageAssets/features/power.jpg);
+}
+.item5 {
+  background-image: url(../../../ImageAssets/features/mma.jpg);
+}
+
+.item6 {
+  grid-column: span 2;
+  background-image: url(../../../ImageAssets/features/workout.jpg);
+}
+
+@media screen and (max-width: 1240px) {
+  .itemDescription p {
+    margin-bottom: 6rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .featuresBodyGrid {
+    display: block;
+  }
+  .item {
+    margin-top: 0.5rem;
+  }
+}
