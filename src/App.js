@@ -15,7 +15,7 @@ import { Routes, Route } from "react-router-dom";
 import { useState } from "react";
 
 function App() {
-  const [schedule, setSchedule] = useState([
+  const [schedule] = useState([
     {
       day: "Monday",
       id: "monday",
