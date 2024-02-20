@@ -93,7 +93,9 @@ const ContactPage = () => {
           <button className="contactBtn">SUBMIT NOW</button>
         </form>
       </div>
-      <div className="contactPageFooter"></div>
+      <div className="contactPageFooter">
+        <div id="map"></div>
+      </div>
 
       <Footer />
     </div>

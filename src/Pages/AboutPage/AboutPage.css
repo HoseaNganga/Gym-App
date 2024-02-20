@@ -17,6 +17,7 @@
   gap: 10px 0;
   margin-bottom: 5rem;
   background-image: url(../../ImageAssets/who-we-are/background.jpg);
+  padding: 1rem;
 }
 .aboutPageGridItem {
   padding: 20px;

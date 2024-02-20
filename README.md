@@ -1,70 +1,118 @@
-# Getting Started with Create React App
+<div align='center'><img src='https://user-images.githubusercontent.com/105128267/213878516-5072da91-0d7a-4dd8-95a8-0b405691dcc5.svg'/></div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2>Screenshots of the Project 📸</h2>
+<br>
+<h3 align='center'>Home Page 🏡</h3>
 
-## Available Scripts
+<div align='center'>
+<img src='./src/ImageAssets/GithubScreenshots/HomePageScreenShot.png'/>
 
-In the project directory, you can run:
+</div>
+<br><br>
+<h3 align='center'>Classes Page 👇</h3>
 
-### `npm start`
+<div align='center'>
+<img src='./src/ImageAssets/GithubScreenshots/ClassesScreenshot.png'/>
+</div>
+<br>
+<br>
+<h3 align='center'>Blog Page 👇</h3>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<div align='center'>
+<img src='./src/ImageAssets/GithubScreenshots/BlogScreenshot.png'/>
+</div>
+<br>
+<br>
+<h3 align='center'>Schedule Page 👇</h3>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<div align='center'>
+<img src='./src/ImageAssets/GithubScreenshots/ScheduleScreenshot.png'/>
+</div>
+<br>
+<br>
+<h3 align='center'>Contact Page 👇</h3>
 
-### `npm test`
+<div align='center'>
+<img src='./src/ImageAssets/GithubScreenshots/ContactScreenshot.png'/>
+</div>
+<br>
+<br>
+<h3 align='center'>Gallery Page 👇</h3>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<div align='center'>
+<img src='./src/ImageAssets/GithubScreenshots/GalleryScreenshot.png'/>
+</div>
+<br>
+<br>
+<h3 align='center'>Pricing Page 👇</h3>
 
-### `npm run build`
+<div align='center'>
+<img src='./src/ImageAssets/GithubScreenshots/PricingScreenshot.png'/>
+</div>
+<br>
+<br>
+<h3 align='center'>Login Page 👇</h3>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<div align='center'>
+<img src='./src/ImageAssets/GithubScreenshots/LoginScreenshot.png'/>
+</div>
+<br>
+<br>
+<h3 align='center'>About Page 👇</h3>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<div align='center'>
+<img src='./src/ImageAssets/GithubScreenshots/AboutScreenshot.png'/>
+</div>
+<br>
+<br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Fitness Center Website Project
 
-### `npm run eject`
+This project is a web application for a fitness center. It includes various pages such as the homepage, about page, gallery page, schedule page, blog page, pricing page, classes page, contact page, and sign-up page.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Project Structure
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The project is structured as follows:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Components**: Contains reusable components used throughout the application. In this case, it includes a `NavBar` component located at `./Components/HomepageComponents/Import.js`.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Pages**: Contains different pages of the website. Each page is a React component responsible for rendering specific content.
+  - `HomePage`: Renders the homepage content.
+  - `AboutPage`: Renders information about the fitness center.
+  - `GalleryPage`: Renders a gallery of images related to the fitness center.
+  - `SchedulePage`: Renders the schedule of classes offered by the fitness center.
+  - `SchedulePostPage`: Renders details of a specific class schedule based on the URL parameter.
+  - `BlogPage`: Renders blog posts related to fitness and health.
+  - `PricingPage`: Renders information about pricing and membership plans.
+  - `ClassesPage`: Renders information about different classes offered.
+  - `ContactPage`: Renders contact information for the fitness center.
+  - `SignUpPage`: Renders a sign-up form for new members.
 
-## Learn More
+## Schedule Data
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The `App` component manages the state of the schedule, which includes information about various classes offered by the fitness center on different days of the week. The schedule data is stored as an array of objects, with each object representing a day and its corresponding classes.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Routing
 
-### Code Splitting
+The application uses `react-router-dom` for routing. Different routes are defined for each page, and corresponding components are rendered based on the URL.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Usage
 
-### Analyzing the Bundle Size
+To run the project locally:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Clone the repository.
+2. Install dependencies using `npm install`.
+3. Start the development server using `npm start`.
 
-### Making a Progressive Web App
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- React: A JavaScript library for building user interfaces.
+- react-router-dom: DOM bindings for React Router, used for routing in the application.
 
-### Advanced Configuration
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
 
-### Deployment
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.

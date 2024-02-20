@@ -12,8 +12,8 @@ const AboutPage = () => {
         <h2>About Us</h2>
       </div>
       <WhoWeAre />
-      <div class="aboutPageGrid">
-        <div class="aboutPageGridItem gridItem1">
+      <div className="aboutPageGrid">
+        <div className="aboutPageGridItem gridItem1">
           <div className="gridItem1Image">
             <img src={image2} alt="target" width={150} />
           </div>
@@ -24,9 +24,9 @@ const AboutPage = () => {
             veniam consequat.
           </p>
         </div>
-        <div class="aboutPageGridItem gridItem2"></div>
-        <div class="aboutPageGridItem gridItem3"></div>
-        <div class="aboutPageGridItem gridItem4">
+        <div className="aboutPageGridItem gridItem2"></div>
+        <div className="aboutPageGridItem gridItem3"></div>
+        <div className="aboutPageGridItem gridItem4">
           <div className="gridItem1Image">
             <img src={image1} alt="mountain" />
           </div>

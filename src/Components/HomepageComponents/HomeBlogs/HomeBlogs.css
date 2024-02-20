@@ -61,6 +61,11 @@
 .homeBlogsHeader h3 {
   font-size: 2.5rem;
   font-weight: 900;
+  text-align: center;
+}
+
+.homeBlogsHeader p {
+  text-align: center;
 }
 
 .blogLinkHome a {

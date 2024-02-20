@@ -6,7 +6,6 @@ import { useParams } from "react-router-dom";
 const SchedulePostPage = ({ schedule }) => {
   const { id } = useParams();
   const post = Array.from(schedule).find((val) => val.id === id);
-  console.log(post);
   return (
     <div className="schedulePostPageContainer">
       {post && (
