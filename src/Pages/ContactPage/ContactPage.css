@@ -1,0 +1,97 @@
+.contactPageHeader {
+  margin-bottom: 2rem;
+}
+.contactPageBody {
+  display: flex;
+  padding: 1rem;
+}
+
+.contactPageBodySection1 {
+  flex: 1;
+  line-height: 3rem;
+}
+
+.flexContactSection1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.9rem;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+.flexContactSection1 div {
+  display: grid;
+  width: 200px;
+}
+
+.contactSocials svg {
+  display: inline;
+  margin-inline: 0.6rem;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.contactSocials svg:hover {
+  color: var(--BUTTONBACKGROUNDCOLOR);
+}
+
+.leaveInfoForm {
+  flex: 1;
+  background-color: lightgray;
+  display: grid;
+  width: 100%;
+  padding: 1rem;
+}
+
+.leaveInfoForm input,
+.leaveInfoForm textarea,
+.leaveInfoForm select {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.leaveInfoForm button {
+  background-color: var(--BUTTONBACKGROUNDCOLOR);
+  padding: 0.7rem;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  color: var(--SECONDARYCOLOR);
+  cursor: pointer;
+}
+
+.leaveInfoForm button:hover {
+  background-color: green;
+}
+.contactPageFooter {
+  margin-bottom: 10rem;
+}
+
+@media screen and (max-width: 998px) {
+  .contactPageBody {
+    display: grid;
+  }
+
+  .contactPageBodySection1,
+  .flexContactSection1 div {
+    display: grid;
+    place-items: center;
+  }
+  .contactPageBodySection1 p,
+  .contactPageBody h2 {
+    text-align: center;
+  }
+
+  .leaveInfoForm {
+    display: grid;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 464px) {
+  .flexContactSection1 {
+    display: grid;
+    place-items: center;
+  }
+}

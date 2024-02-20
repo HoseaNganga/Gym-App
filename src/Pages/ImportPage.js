@@ -3,3 +3,8 @@ export { default as AboutPage } from "./AboutPage/AboutPage";
 export { default as GalleryPage } from "./GalleryPage/GalleryPage";
 export { default as SchedulePage } from "./SchedulePage/SchedulePage";
 export { default as SchedulePostPage } from "./SchedulePostPage/SchedulePostPage";
+export { default as BlogPage } from "./BlogPage/BlogPage";
+export { default as PricingPage } from "./PricingPage/PricingPage";
+export { default as ClassesPage } from "./ClassesPage/ClassesPage";
+export { default as ContactPage } from "./ContactPage/ContactPage";
+export { default as SignUpPage } from "./SignUpPage/SignUpPage";

@@ -12,7 +12,7 @@ const SchedulePage = ({ schedule }) => {
     <div className="scheduleContainer">
       <div className="scheduleContainerHeader">
         <div className="aboutPageHeader">
-          <h2>About Us</h2>
+          <h2>Schedule By Day</h2>
         </div>
         <div className="scheduleBody">
           <ul className="scheduleDayContainer">
